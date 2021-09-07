@@ -1,3 +1,18 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  root 'billboards#index'
+# resources :controller_name
+resources :billboards
+
+# resources :parent_controller do
+#   resources :child_controller
+# end
+
+# resources :billboards do
+#   resources :artists
+# end 
+
+# resources :artists do
+#   resources :songs
+# end
 end
