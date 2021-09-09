@@ -8,11 +8,11 @@ resources :billboards
 #   resources :child_controller
 # end
 
-# resources :billboards do
-#   resources :artists
-# end 
+resources :billboards do
+  resources :artists
+end 
 
-# resources :artists do
-#   resources :songs
-# end
+resources :artists do
+  resources :songs
+end
 end
